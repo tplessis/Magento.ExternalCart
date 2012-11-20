@@ -1,0 +1,12 @@
+<!-- BEGIN ITEM TEMPLATE -->
+<tr>
+	<td style="width:380px;"><h2>##ITEM_NAME##</h2></td>
+	<td align="center" style="width:90px;">##ITEM_PRICE## &euro;</td>
+	<td align="center" style="width:100px;">
+		<input style="text-align:right; width:50px" type="text" name="qty##ITEM_SKU##" value="##ITEM_QUANTITY##" class="item_qty" data-sku="##ITEM_SKU##" data-id="##ITEM_ID##" />
+    </td>
+	<td align="center" style="width:90px;">##ITEM_TOTAL_PRICE## &euro;</td>
+	<td align="center" style="width:100px;"></td>
+	<td align="center" style="width:80px;"><a href="index.php?action=remove&sku=##ITEM_SKU##"><img title="Supprimer l'ouvrage" alt="Supprimer l'ouvrage" src="templates/img/del_panier.gif" /></a></td>
+</tr>
+<!-- END ITEM TEMPLATE -->
